@@ -21,4 +21,4 @@ RUN npm run build
 EXPOSE 8080
 
 #RUN
-CMD ["node", "app.js"]
+CMD ["node", "server.bundle.js"]

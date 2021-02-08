@@ -1,6 +1,6 @@
 import express from 'express';
-import todoLists from './models/todoList';
-import items from './models/item';
+import todoLists from '../models/todoList';
+import items from '../models/item';
 import dotenv from 'dotenv';
 import mongoose from 'mongoose';
 import { ObjectID } from 'mongodb';

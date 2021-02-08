@@ -1,18 +1,16 @@
 {
-  "name": "elm-todo",
+  "name": "todos-api",
   "version": "1.0.0",
-  "description": "A simple Elm TODO app",
-  "main": "index.js",
+  "description": "Node Todos Api",
+  "main": "server.js",
   "private": true,
   "scripts": {
-    "serverNodemon": "nodemon -r esm ./server.js",
-    "bundleServer": "webpack --config ./config/webpack.server.config.js",
-    "clientBuild": "webpack --config ./config/webpack.client.config.js",
-    "clientWatch": "webpack --config ./config/webpack.client.config.js --watch"
+    "serverNodemon": "nodemon -r esm ./src/server.js",
+    "bundleServer": "webpack"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/abshierjoel/elm-todo.git"
+    "url": "git+https://github.com/abshierjoel/todos-api"
   },
   "author": "Joel Abshier",
   "license": "ISC",
