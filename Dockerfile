@@ -10,10 +10,6 @@ COPY . .
 #setup node
 RUN npm install
 
-#setup elm
-RUN npm i elm
-RUN npm i elm-test
-
 #build
 RUN npm run build
 
@@ -21,4 +17,4 @@ RUN npm run build
 EXPOSE 8080
 
 #RUN
-CMD ["node", "server.bundle.js"]
+CMD ["node", "dist/server.bundle.js"]

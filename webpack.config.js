@@ -6,7 +6,7 @@ module.exports = {
   entry: { server: './server.js' },
   output: {
     filename: '[name].bundle.js',
-    path: path.resolve(__dirname, '../server'),
+    path: path.resolve(__dirname, '/dist'),
   },
   // externals: [WebpackNodeExternals()],
 };
