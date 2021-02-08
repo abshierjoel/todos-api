@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "serverNodemon": "nodemon -r esm ./src/server.js",
-    "bundleServer": "webpack"
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
